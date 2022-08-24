@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: AvenirLTPro-Medium, Geneva,Tahoma, sans-serif;
-
+    
 }
 /* #mil_class_set{
   
@@ -16,6 +16,7 @@
     display: grid;
     /* justify-content: center; */
     /* align-items: center; */
+    color: whitesmoke;
     
 }
 #mil_class_set{
