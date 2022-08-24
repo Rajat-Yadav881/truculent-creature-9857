@@ -24,7 +24,7 @@ function navbar(){
 }
 function Footer(){
     return`<div id="rj-footer">
-    <div>
+    <div class="sws">
             <span>Donate Toward</span>
             <div>
                 <div>
@@ -95,7 +95,7 @@ function Footer(){
                 </div>
             </div>
         </div>
-    <div>
+    <div class="gwg">
         <span>Milaap</span>
         <div><a href="#">About us</a></div>
         <div><a href="#">Press and Media</a></div>
@@ -105,9 +105,9 @@ function Footer(){
         <div><a href="#">Board</a></div>
         <div><a href="#">Thank You</a></div>
     </div>
-    <div>
+    <div class="mwm">
         <span>indian office adress</span>
-        <p>
+        <p class="lld">
             "Milaap Social Ventures India Pvt. Ltd."
             <br>
             "ClayWorks Create - building,11th KM Create Campus,Arakere Bannerghatta Rd,"
@@ -150,8 +150,8 @@ function Footer(){
             </a></div>
         </div>
     </div>
-    <div>      
-        <div>
+    <div class="kwk">      
+        <div class="kwk2">
             <button href="#">Start a fundraiser</button>
             <div>
                 <a href="#"><p>Pricing</p></a>
@@ -161,7 +161,10 @@ function Footer(){
         </div>
         <div>
             <div>
-                <p>Find us on</p>
+              <div>
+              <p>Find us on</p>
+              </div>
+                
                 <div>
                     <div><a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
@@ -289,7 +292,7 @@ function Footer(){
             </div>
         </div>
     </div>
-    <div>
+    <div id="grey_div">
         <div>
             <svg width="385" height="390" viewBox="0 0 385 390" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path d="M63.9268 215.851C63.9268 215.851 55.8109 217.999 62.6363 235.518C69.4617 253.038 74.5222 261.88 74.5222 261.88C74.5222 261.88 75.6409 265.901 72.3244 266.174C69.0076 266.448 61.9527 264.583 60.1013 268.422C58.181 272.404 60.7908 276.605 66.5329 280.638C72.2748 284.67 84.5318 293.966 85.6367 294.811C86.7215 295.64 87.7003 297.556 85.4712 298.106C83.2417 298.654 66.9449 298.715 67.4371 306.447C67.9289 314.179 85.7714 322.784 87.7039 323.763C89.6361 324.741 90.0311 325.641 89.7567 326.728C89.4824 327.816 84.002 327.32 79.368 327.527C74.7337 327.735 69.3964 328.788 70.0541 333.225C70.7113 337.662 80.7678 347.857 107.144 353.147L119.526 354.798L127.342 344.982C142.788 322.954 143.036 308.635 140.452 304.968C137.868 301.303 133.277 304.223 129.78 307.271C126.281 310.317 122.656 314.457 121.707 313.859C120.758 313.262 120.423 312.338 121.148 310.296C121.872 308.254 128.855 289.715 123.877 283.778C118.901 277.84 107.06 289.04 105.067 290.181C103.075 291.322 102.461 289.258 102.675 287.91C102.892 286.536 105.354 271.349 106.729 264.468C108.106 257.587 107.097 252.746 102.961 251.188C98.9718 249.686 95.1507 255.903 92.5609 257.993C89.9712 260.083 88.0086 256.401 88.0086 256.401C88.0086 256.401 85.5728 246.507 78.43 229.115C71.287 211.722 63.7656 215.906 63.7656 215.906" fill="#EEEEEE"></path>
@@ -477,8 +480,12 @@ function Footer(){
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.047" height="52.047" viewBox="0 0 47.047 47.047"><defs><filter id="Ellipse_199" x="0" y="0" width="47.047" height="47.047" filterUnits="userSpaceOnUse"><feOffset input="SourceAlpha"></feOffset><feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur><feFlood flood-color="#9c3353" flood-opacity="0.2"></feFlood><feComposite operator="in" in2="blur"></feComposite><feComposite in="SourceGraphic"></feComposite></filter><filter id="Ellipse_200" x="0" y="0" width="47.047" height="47.047" filterUnits="userSpaceOnUse"><feOffset input="SourceAlpha"></feOffset><feGaussianBlur stdDeviation="3" result="blur-2"></feGaussianBlur><feFlood flood-color="#9c3353" flood-opacity="0.2"></feFlood><feComposite operator="in" in2="blur-2"></feComposite><feComposite in="SourceGraphic"></feComposite></filter><clipPath id="clip-path"><rect id="Rectangle_2087" data-name="Rectangle 2087" width="21" height="21" fill="#9c3353" stroke="#707070" stroke-width="1"></rect></clipPath></defs><g id="Group_3749" data-name="Group 3749" transform="translate(-308.477 -2293.477)"><g id="Group_3748" data-name="Group 3748"><g id="Group_3729" data-name="Group 3729" transform="translate(6 -29)"><g transform="matrix(1, 0, 0, 1, 302.48, 2322.48)" filter="url(#Ellipse_199)"><circle id="Ellipse_199-2" data-name="Ellipse 199" cx="11" cy="11" r="11" transform="translate(12.52 12.52)" fill="#9c3353"></circle></g><g transform="matrix(1, 0, 0, 1, 302.48, 2322.48)" filter="url(#Ellipse_200)"><circle id="Ellipse_200-2" data-name="Ellipse 200" cx="11" cy="11" r="11" transform="translate(12.52 12.52)" fill="#fff"></circle></g><g id="Mask_Group_161" data-name="Mask Group 161" transform="translate(316 2357) rotate(-90)" clip-path="url(#clip-path)"><g id="next_1_" data-name="next (1)" transform="translate(1)"><g id="Group_3728" data-name="Group 3728"><path id="Path_4275" data-name="Path 4275" d="M10,20A10,10,0,1,1,20,10,10.011,10.011,0,0,1,10,20ZM13.089,9.411,8.922,5.244A.833.833,0,0,0,7.744,6.423L11.322,10,7.744,13.577a.833.833,0,0,0,1.178,1.178l4.167-4.167A.832.832,0,0,0,13.089,9.411Z" fill="#9c3353"></path></g></g></g></g></g></g></svg>
             </div>
             <span>Download Now!</span>
-            <div><a href="#"><img src="https://assets.milaap.org/assets/play-store-btn-3cb8952867b0552ef1377bf63004d9d6613fd11da71e8446e7e6be1fd61f3182.png" alt="Error"></a></div>
-            <div><a href="#"><img src="https://assets.milaap.org/assets/app-store-btn-0ae1713b1521ee08942a97e257b38ac5050a6cf70df4084b3f4ab234e60ea51f.png" alt="Error"></a></div>
+            <div class="lastImg">
+            <img src="https://assets.milaap.org/assets/play-store-btn-3cb8952867b0552ef1377bf63004d9d6613fd11da71e8446e7e6be1fd61f3182.png" alt="Error">
+            </div>
+            <div class="lastImg">
+            <img src="https://assets.milaap.org/assets/app-store-btn-0ae1713b1521ee08942a97e257b38ac5050a6cf70df4084b3f4ab234e60ea51f.png" alt="Error">
+            </div>
         </div>
     </div>
 </div>`
