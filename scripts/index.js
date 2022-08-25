@@ -198,8 +198,8 @@ let append = (volt)=>{
     author.innerText  =el.creater;
     let fundRase = document.createElement("p")
     fundRase.innerText = `$${el.raised}`
-    // let dis = document.getElementById("div")
-    // dis.setAttribute("class","keep_it_on")
+    let dis = document.getElementById("div")
+    dis.setAttribute("class","keep_it_on")
     div.append(img,title,author,fundRase)
     cont.append(div)
   })
