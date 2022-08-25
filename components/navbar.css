@@ -100,9 +100,20 @@
 #navsection_class_set_feel_1:hover{
     background-color: whitesmoke;
 }
+#profileSet{
+  width: 15%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 #mil_class_set{
     box-shadow: #f6edf0 0px 3px 8px;
     position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 1030;
+    background-color: #fff;
 
 }
 @import  url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -144,10 +155,7 @@
     background: #9c3353;
    
   }
-  #profileSet{
-    border: 2px solid red;
-    width: 20%;
-  }
+ 
   
   .toggle input[type="checkbox"] + label::after{
     content: ' ';
@@ -191,3 +199,46 @@
    
     text-decoration: underline;
   }
+
+
+
+
+  /* **************** */
+  .dropbtn {
+    background-color: #fff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:#9c3353;
+  }
+  
+  #profileSet {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #profileSet a:hover {background-color: #ddd;}
+  
+  .show {display: block;}

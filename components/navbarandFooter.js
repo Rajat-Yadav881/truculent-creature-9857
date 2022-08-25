@@ -19,7 +19,15 @@ function navbar(){
         </div>
         <div id="fundReiser"><a href="#">Start fundraiser</a></div>
     </div>
-    <div id="profileSet"><a href="#">login</a></div>
+    
+    <div id="profileSet">
+  <img class="dropbtn" src="./components/img/profile.svg" alt="*">
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Login</a>
+    <a href="#about">Register</a>
+    
+  </div>
+</div>
 </div>`
 }
 function Footer(){
