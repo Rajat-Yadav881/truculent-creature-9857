@@ -54,6 +54,170 @@ function myFunction() {
       }
     }
   }
+let volt = [
+      {
+        name:"Feeding Mumbai",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1623250421/production/images/campaign/295425/Feeding_Mumbai_w3.3_upmmae_1623250425.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"mumbai"
+      },
+      {
+        name:"Feeding Mumbai",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1623250421/production/images/campaign/295425/Feeding_Mumbai_w3.3_upmmae_1623250425.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"mumbai"
+      },
+      {
+        name:"Feeding Mumbai",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1623250421/production/images/campaign/295425/Feeding_Mumbai_w3.3_upmmae_1623250425.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"mumbai"
+      },
+      {
+        name:"Feeding Mumbai",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1623250421/production/images/campaign/295425/Feeding_Mumbai_w3.3_upmmae_1623250425.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"mumbai"
+      },
+      {
+        name:"Feeding Mumbai",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1623250421/production/images/campaign/295425/Feeding_Mumbai_w3.3_upmmae_1623250425.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"mumbai"
+      },
+      {
+        name:"Feeding Mumbai",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1623250421/production/images/campaign/295425/Feeding_Mumbai_w3.3_upmmae_1623250425.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"mumbai"
+      },
+      {
+        name:"Support LGBT People in Bangalore",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"bangalore"
+      },
+      {
+        name:"Support LGBT People in Bangalore",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"bangalore"
+      },
+      {
+        name:"Support LGBT People in Bangalore",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"bangalore"
+      },
+      {
+        name:"Support LGBT People in Bangalore",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"bangalore"
+      },
+      {
+        name:"Support LGBT People in Bangalore",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"bangalore"
+      },
+      {
+        name:"Support LGBT People in Bangalore",
+        poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+        raised:197000,
+        creater:"Aalok Vinod",
+        city:"bangalore"
+      },
+
+      // {
+      //   name:"Support LGBT People in Bangalore",
+      //   poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+      //   raised:197000,
+      //   creater:"Aalok Vinod",
+      //   city:"bangalore"
+      // },
+      // {
+      //   name:"Support LGBT People in Bangalore",
+      //   poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+      //   raised:197000,
+      //   creater:"Aalok Vinod",
+      //   city:"bangalore"
+      // },
+      // {
+      //   name:"Support LGBT People in Bangalore",
+      //   poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+      //   raised:197000,
+      //   creater:"Aalok Vinod",
+      //   city:"bangalore"
+      // },
+      // {
+      //   name:"Support LGBT People in Bangalore",
+      //   poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+      //   raised:197000,
+      //   creater:"Aalok Vinod",
+      //   city:"bangalore"
+      // },
+      // {
+      //   name:"Support LGBT People in Bangalore",
+      //   poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+      //   raised:197000,
+      //   creater:"Aalok Vinod",
+      //   city:"bangalore"
+      // },
+      // {
+      //   name:"Support LGBT People in Bangalore",
+      //   poster:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1463461132/production/images/campaign/4805/5979_1463461130.jpg",
+      //   raised:197000,
+      //   creater:"Aalok Vinod",
+      //   city:"bangalore"
+      // },
+      
+]
+
+let append = (volt)=>{
+  let cont = document.getElementById("info_container");
+  cont.innerHTML = null
+  volt.map((el)=>{
+    let div = document.createElement("div")
+    let img = document.createElement("img")
+    img.src = el.poster;
+    let title = document.createElement("h4")
+    title.innerText = el.name;
+    let author = document.createElement("p")
+    author.innerText  =el.creater;
+    let fundRase = document.createElement("p")
+    fundRase.innerText = `$${el.raised}`
+    // let dis = document.getElementById("div")
+    // dis.setAttribute("class","keep_it_on")
+    div.append(img,title,author,fundRase)
+    cont.append(div)
+  })
+}
+// append(volt)
+let setGlimped = ()=>{
+  let query = document.getElementById("inp__search").value;
+ 
+  let cos = [...volt]
+
+  cos = cos.filter((el)=>{
+    return el.city.includes(query)
+  })
+  append(cos)
+  document.querySelector("#inp__search").value = null
+}
 
 
+// document.getElementById("keep_it_on").addEventListener("click",keep_hustle)
 document.querySelector(".dropbtn").addEventListener("click",myFunction)
+document.getElementById('leapsection_btn770').addEventListener("click",setGlimped)

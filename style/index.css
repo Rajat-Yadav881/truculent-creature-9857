@@ -1,11 +1,12 @@
 #rj_container{
     width: 100%;
-    border: 2px solid lawngreen;
+  
 }
 #section__1{
     width: 100%;
 }
 #rj_container>div:nth-child(1){
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width: 645px;
     height: 50px;
     margin: auto;
@@ -15,7 +16,7 @@
     text-align: center;
     border-radius: 7px;
 }
-#rj_container>div:nth-child(2){
+/* #rj_container>div:nth-child(2){
     width: 1041px;
     line-height: 50px;
     font-weight: 100;
@@ -36,25 +37,132 @@
     border: 2px solid rebeccapurple;
 }
 #rj_container>div:nth-child(3){
+
+    width: 1041px;
+    margin: auto;
+    padding: 30px;
+} */
+#left_side_section{
+    width: 1041px;
+    border: 2px solid teal;
     display: flex;
+    margin: auto;
+    height: 500px;
+    padding: 10px;
+}
+#left_side_section>div{
+    border: 2px solid red;
+    padding: 20px;
+}
+#left_side_section>div:nth-child(2){
+    width: 50%;
+}
+#left_side_section>div:nth-child(2)>img{
+    width: 110%;
+    position: static;
+    left: 10px;
+    top: 20px;
+}
+#rj_container>div:nth-child(3){
     width: 1041px;
     margin: auto;
     padding: 30px;
 }
-#rj_container>div:nth-child(4){
-    width: 1041px;
-    margin: auto;
-    padding: 30px;
-}
-#rj_container>div:nth-child(4)>div{
+#rj_container>div:nth-child(3)>div{
     display: flex;
     
 }
-#rj_container>div:nth-child(4)>div{
+#rj_container>div:nth-child(3)>div{
     border: 2px solid royalblue;
 }
-#rj_container>div:nth-child(4)>div>img{
+#rj_container>div:nth-child(3)>div>img{
     width: 100px;
     height: 100px;
     padding: 30px;
+}
+#leapsection_btn{
+    display: block;
+
+    width: 230px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #9C3353;
+    color: #fff;
+    border: none;
+}
+#leapsection_btn770{
+    display: block;
+
+    width: 100px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #9C3353;
+    color: #fff;
+    border: none;
+}
+#debouncing_section{
+    border: 2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#debouncing_section>input{
+    width: 465px;
+    height: 45px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+#cross_section{
+    width: 50%;
+    height: 102px;
+   
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+#cross_section>div{
+    width: 20%;
+ 
+    cursor: pointer;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: rgb(229,201,210) 0px 3px 8px;
+}
+.vim_cart_decor{
+    display: flex;
+}
+.vim_cart_decor hr{
+    border: 2px solid gray;
+}
+.circle_1{
+    border: 2px solid red;
+    width: 20px;
+    height: 20px;
+}
+.inner_circle_tight{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+}
+.inner_circle_tight>img{
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+}
+.inner_circle{
+    color: #fff;
+    background-color: #9C3353;
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner_circle>img{
+    width: 60px;
+    height: 60px;
+    padding: 14px;
 }
