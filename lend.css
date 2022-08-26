@@ -6,7 +6,7 @@
 }
 
 body{
-    width: 80%;
+    width: 75%;
     margin: auto;
    
 }
@@ -38,20 +38,37 @@ letter-spacing: 1.5px;
 
 }
 #v-filter{
-    border: 1px solid red ;
+  
     
-    width: 25%;
+    width: 23%;
+    /* margin-left: 3%; */
 
 }
+
+#v-filterBy {
+    color: #5d5d5d;
+    font-style:  "AvenirLTPro-Medium";
+    font-family: AvenirLTPro-Medium, Geneva,Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 9%;
+    font-stretch: expanded;
+}
+
+#v-filterBox{
+    margin-top: 15%;
+}
+
 #v-right{
-    border: 1px solid ;
+   
     height: 30px;
-    width: 72%;
+    width: 74%;
 
 }
 
 #v-upper{
-    border: 1px solid ;
+
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -241,12 +258,15 @@ progress::-webkit-progress-value {
     background-color: rgb(243, 241, 241);
     padding: 5px;
     width: 5%;
+    height: 25px;
   
 
     
 }
 
-alert{
+#alert{
+    position: absolute;
+    left: 500px;
     background-color: #9c3353;
 }
 .loanCard{
@@ -275,19 +295,95 @@ alert{
 }
 
 #lendMoney{
-    margin-top: 1%;
+    margin-top: 5%;
     display: flex;
+    margin-bottom: 3px;
 }
 
 .lendBtn {
    
-    position: absolute;
+   padding: 5px 0px;
+   padding-top: 5px;
     bottom: -2px;
     background-color: #9c3353;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
-    width: 50%;
-
+    width: 20%;
+    height: 40px;
+    font-size: 16px;
 }
 
+.collapsible {
+    background-color: rgb(249, 249, 249);
+    color: rgb(90, 90, 90);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+   
+    border: 1px solid  rgb(177, 177, 177);
+  }
+  
+  .active, .collapsible:hover {
+    
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 3px 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 150px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+  #popUpDiv{
+    position: fixed;
+    left: 1200px;
+    top: 50px;
+    display: none;
+    background-color: #f6f6f6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #515050;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    /* padding-bottom: 20px; */
+
+  }
+ .basket{
+   
+    padding: 10px 15px;
+    margin: 0px 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+
+  }
+  .payBtn{
+
+    background-color: #9c3353;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    
+  }
