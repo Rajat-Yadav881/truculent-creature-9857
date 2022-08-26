@@ -42,26 +42,53 @@
     margin: auto;
     padding: 30px;
 } */
+#savage_xxx{
+
+    line-height: 60px;
+    color: #5d5d5d;
+    margin-top: 140px;
+}
+#rj_x{
+    font-size: 40px;
+    color: #212121;
+}
+#rj_y{
+    font-size: 20px;
+}
+#rj_z{
+    font-size: 15px;
+}
+#savage_zzz{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+#hori{
+    margin-left: 8px;
+    margin-right: 8px;
+}
 #left_side_section{
     width: 1041px;
-    border: 2px solid teal;
+   
     display: flex;
     margin: auto;
     height: 500px;
     padding: 10px;
 }
 #left_side_section>div{
-    border: 2px solid red;
+    
     padding: 20px;
 }
 #left_side_section>div:nth-child(2){
     width: 50%;
 }
 #left_side_section>div:nth-child(2)>img{
-    width: 110%;
-    position: static;
-    left: 10px;
-    top: 20px;
+    width: 130%;
+    position: relative;
+    height: 500px;
+    object-fit: cover;
 }
 #rj_container>div:nth-child(3){
     width: 1041px;
@@ -73,7 +100,24 @@
     
 }
 #rj_container>div:nth-child(3)>div{
-    border: 2px solid royalblue;
+ 
+    width: 1053px;
+    background-color: #faf0f3 ;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#init_setter{
+    width: 70%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    
+    margin: auto;
+    
+}
+#init_setter>img{
+    width: 50px;
+    height: 55px;
 }
 #rj_container>div:nth-child(3)>div>img{
     width: 100px;
@@ -90,6 +134,11 @@
     color: #fff;
     border: none;
 }
+#drill_in{
+    border: 4px solid #691A47;
+    background-color: #691A47;
+    border-radius: 5px;
+}
 #leapsection_btn770{
     display: block;
 
@@ -100,11 +149,22 @@
     color: #fff;
     border: none;
 }
+
 #debouncing_section{
-    border: 2px solid purple;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#section__2{
+    margin-top: 40px;
+}
+#section__2>div:nth-child(1)>p{
+    text-align: center;
+    font-size: 30px;
+    color: #212121;
 }
 #debouncing_section>input{
     width: 465px;
@@ -137,7 +197,7 @@
     border: 2px solid gray;
 }
 .circle_1{
-    border: 2px solid red;
+
     width: 20px;
     height: 20px;
 }

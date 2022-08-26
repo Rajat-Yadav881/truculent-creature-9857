@@ -97,10 +97,43 @@
     font-size: 12px;
     margin: 5px 0px;
 }
+#rabbit{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 300;
+}
 #google_apple{
   
     display: flex;
     justify-content: center;
     
     align-items: center;
+}
+
+
+.campaign-leads-create{
+    border: 2px solid red;
+    width: 100%;
+    height: 144px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.campaign-leads-create{
+    background-image: linear-gradient(to right, #792c4c , #a54663);
+  }
+.campaign-lead-container_container{
+    border: 2px solid teal;
+    width: 1100px;
+    border-radius: 10px;
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+.help-text{
+    margin-left: 40px;
 }

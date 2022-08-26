@@ -275,7 +275,23 @@ let Medical = ()=>{
   })
   append(cos)
 }
+let id;
+function debounce(setGlimped,delay){
+    if(id){
+        clearTimeout(id);
+    }
+    id = setTimeout(()=>{
+      setGlimped()
+    },delay);
+}
 document.getElementById("setterMedical").addEventListener("click",Medical)
 document.getElementById("luisSense").addEventListener("click",keep_hustle)
 
-document.getElementById('leapsection_btn770').addEventListener("click",setGlimped)
+
+document.querySelector(".leapsection_btn770").addEventListener("keypress",(event)=>{
+  // if(event.key === "Enter"){
+  //     event.preventDefault()
+  //     setGlimped()
+  // }
+  debounce(setGlimped,2000)
+})
