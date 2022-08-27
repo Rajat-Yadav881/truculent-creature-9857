@@ -12,6 +12,16 @@
 //            4.Repayment Period
 //            5.ICTB
 
+
+
+import {navbar} from "./components/navbarandFooter.js "
+
+let navbar_div = document.getElementById("navbar")
+
+navbar_div.innerHTML = navbar()
+
+
+
 let container = document.getElementById("v-content")
 
 
@@ -21,6 +31,7 @@ function Milaap(i,t,f1,f2,a,p,s,l,rt,rp, r){
     this.funded = f1
     this.reqFund = f2
     this.address= a
+    
     this.purpose= p
     this.story = s
     
@@ -41,7 +52,7 @@ function Milaap(i,t,f1,f2,a,p,s,l,rt,rp, r){
     new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660283784/production/images/loan/a020o000016LBvkAAG-GrameenShakti-L-1020-171750_1660283782.jpg","Shyamali Das And Group","17550.00","981450.00","Srirampur, West Bengal","to purchase fishes in order to expand fishing business.","Shyamali is a 30- year- old married woman. She resides in Burdwan district of West Bengal. She has a household of size 4 members. She manages to accumulate a monthly household income of INR 7,500. She has formed and is leading a group of 27 members who work hard to support their families and save diligently. She realized that an increase in her and her friend's income levels and control over income will ensure economic empowerment. It will give them an independent means of generating wealth and becoming self-reliant in a society. This will generate benefits not only for her as an individual woman but also her family and community as a whole through collective action for development. However due to financial constraints she and her friends are unable to fulfill their desire of continuing their fishing business.As Shyamali and her friends run the household, a better living standard will ensure better governance and a healthier and more prosperous future for their family and children. Being the leader of the group, she has applied for a total loan of INR 99,90,00 from Grameen Shakti , one of the Milaap's field partner for the purchase of fishes in order to expand fishing business. Shyamali and her friends will be highly grateful for the help and support of their lenders.","12 Sep 2022","24","Nov 2022 to Nov 2024","13.50",),
     new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660291990/production/images/loan/a020o0000182LmsAAE-TMMB01_1660291988.jpg","Ibemcha And Group","99450.00","200550.00","Sega Road Branch, Manipur","to purchase school supplies and pay school fees","Ibemcha is a 35-year-old married woman from the Imphal West district of Manipur. She has a family of 5 members and an income of INR 25,000, which barely makes their ends meet. She is a part of a group of mothers of young students who have realized the importance of a good education. But their low family incomes cannot sustain their children's high educational aspirations in life.So she and her friends have formed a group of 5 members to take up an education loan of INR 3,00,000 from Chanura, one of Milaap's field partners. The children are aware of the importance of education in the present world. It will help build their intellect and confidence to represent themselves to the world. It would lead to a means of becoming self-reliant for them in society. This will also generate benefits, not only for the children as individuals but also for their families and communities as a whole, through collective action for development.This higher education will make better citizens out of the students. But because their families have very little money to invest in their education, this loan will help them fulfil that need. With this loan amount, they will pay their school and tuition fees. They will also buy necessary stationery items like bags, pens, books, notebooks, etc, which are basic requirements for any student.She is positive that the loan would help her child and the other children to have a brighter future. Ibemcha and the other students are thankful to the lenders for all their support.","12 Sep 2022","24","Oct 2022 to Oct 2024","14.35",),
     new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660283809/production/images/loan/a029000000u1CyEAAU-muthulakshmisakthi_1660283808.jpg","Muthulakshmi And Group"," 26070.00","143930.00","Eravancherry, Tamil Nadu","to purchase goats in order to expand business.","Muthulakshmi is a 47- year- old married woman. She resides in the Thiruvarur district of Tamil Nadu. She has a family of 4 members. She is a farmer and has a monthly family income roughly around 12,500. She has a formed and is leading a group of 7 members who, just like Muthulakshmi, work hard to support their families and save for their secured futures.She realises that an increase in her and her friend’s monthly family incomes and their ability to save from it will ensure greater levels of economic independence. It will give them an alternate means of generating wealth and becoming financially stable in the society. This will generate benefits not only for her, as an individual woman, but also her family and community as a whole through collective action for development.Since she and other women in the group run the household, a higher standard of living will ensure better governance along with a healthier and more prosperous future for the families and children. She has applied for a loan of INR 17,00,00 from Velicham Finance Private Limited, one of Milaap’s field partners, for the purchase of goats in order to expand their business.Muthulakshmi and the other women are grateful for your support.","12 Sep 2022","20","Oct 2022 to Jul 2024","14.57",),
-    // new Milaap("","","","","","","","","","Oct 2022 to Oct 2024","14.35",),
+    
     
     
 
