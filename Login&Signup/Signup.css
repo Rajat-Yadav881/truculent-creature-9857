@@ -1,3 +1,4 @@
+/* css part here */
 *{
   padding: 0;
   margin: 0;
@@ -19,7 +20,7 @@
   margin: auto;
  background-color: white;
  border-radius: 10px;
-margin-bottom: -10px;
+
 }
 .logo-wrapper{
     background-color: #9C3353;
@@ -27,7 +28,7 @@ margin-bottom: -10px;
     padding: 15px 13px 10px 14px;
     display: inline-block;
     margin-bottom: 15px;
-    margin-top: 18%;
+    margin-top: 23%;
     margin-left: 4.5rem;
 }
 .logo-wrapper>img{
@@ -43,12 +44,12 @@ margin-bottom: -10px;
   font-family:AvenirLTPro-Light;
   font-size: 15px;
   height:0px;
-  left: 61.5%;
+  left: 55%;
   margin: 0 0 0 -100px;
   padding: 10px 0px;
   position: relative;
   bottom:8em;
-  width: 40%;
+  width: 50%;
   top: 3rem;
   outline: none;
   display: block;
@@ -65,24 +66,24 @@ form{
   color: white;
   width: 20%;
   display: block;
-  margin-left: 24rem;
-  margin-top: 5.8rem;
+  margin-left: 20rem;
+  margin-top: 5.5rem;
   border: none;
-  padding:1em 13em 1em 10em;
+  padding:1em 18em 1em 13em;
   border-radius: 20px;
   cursor: pointer;
 }
-#h1 p:nth-child(1){
+#h1>p:nth-child(1){
   font-family: 'AvenirLTPro-Medium';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  margin-left: 55px;
+  margin-left: 50px;
   margin-top: -15px;
 Color:#542e44;
 line-height: 24px;
 }
-#h1 p:nth-child(2){
+#h1>p:nth-child(2){
   font-family: 'AvenirLTPro-Book';
   font-size: 12px;
   font-style: normal;
@@ -94,7 +95,7 @@ line-height: 24px;
 }
 #h2>p{
   /* border:1px solid red; */
-  margin-top: -17rem;
+  margin-top: -15rem;
   margin-left: 25rem;
   width: 30%;
   text-align: center;
@@ -131,7 +132,7 @@ input[type="text"]:focus {
  
 }
 #h3{
-  margin-left: 18rem;
+  margin-left: 23rem;
   display: inline-flex;
   margin-top: 2rem;
   
@@ -151,55 +152,3 @@ input[type="text"] {
   transition: 0.2s ease-in;
 }
 
-.fa-solid {
- /* border: 1px solid red; */
- font-size: 20px;
-color:#8D837A;
-
-margin-top: 20px;
-}
-#mark{
-  display: flex;
-  justify-content:right;
-  align-items: flex-end;
- margin-right: 25px;
-
-}
-#btn2{
-  margin-left: 25rem;
-  /* border: 1px solid red; */
-  width: 30%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-#btn2 button:nth-child(1)
-{
-  border: none;
-  padding: 10px 25px 10px 25px;
-  border-radius: 18px;
-  background-color: #3B5998;
-  color: white;
-  cursor:pointer;
-}
-#btn2>button:nth-child(2)
-{
-  border: none;
-  padding: 10px 30px 10px 30px;
-  border-radius: 18px;
-  
-  color: white;
-  cursor: pointer;
-}
-#s{
-  text-align: center;
-  margin-left: 35%;
-  margin-top: 20px;
-  color: gray;
-}
-#h4{
-  text-align: center;
-  margin-top: 30px;
-  margin-left: 18em;
-  color: #a03555;
-}

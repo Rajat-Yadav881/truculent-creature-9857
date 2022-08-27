@@ -17,8 +17,10 @@
     else if(checkEmails ( obj.email ) === true)
     {
       signupArr.push(obj)
-      
+      console.log(signupArr)
     localStorage. setItem("Data",JSON.stringify (signupArr) ) 
+    alert('signup success')
+    window.location.href="Login.html"
     }
     else if(obj.password.length<8)
     {
