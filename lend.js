@@ -13,6 +13,8 @@
 //            5.ICTB
 
 let container = document.getElementById("v-content")
+
+
 function Milaap(i,t,f1,f2,a,p,s,l,rt,rp, r){
     this.image = i
     this.title = t
@@ -30,7 +32,7 @@ function Milaap(i,t,f1,f2,a,p,s,l,rt,rp, r){
  }
  
  let myMilaap =[
-    new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1656735329/production/images/loan/a020o000011o3FYAAY-KarandighiBrJuiGroup_1656735328.jpg","Rina Das And Group","389925.73","360074.27","Karandighi, West Bengal"," to purchase more cows to expand dairy business","Rina is a 40-year-old married woman residing in Uttar Dinajpur district of West Bengal. She has a household of 4 members, which includes 1 school-going girl child. Her family is involved in the business of paddy cultivation and she has a monthly household income of INR 9,000. The monthly household expenses amount to INR 5,000. Rina is the leader of a group of 28 women, all of whom are involved in cultivation of paddy and vegetables."),
+    new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1656735329/production/images/loan/a020o000011o3FYAAY-KarandighiBrJuiGroup_1656735328.jpg","Rina Das And Group","389925.73","360074.27","Karandighi, West Bengal"," to purchase more cows to expand dairy business","Rina is a 40-year-old married woman residing in Uttar Dinajpur district of West Bengal. She has a household of 4 members, which includes 1 school-going girl child. Her family is involved in the business of paddy cultivation and she has a monthly household income of INR 9,000. The monthly household expenses amount to INR 5,000. Rina is the leader of a group of 28 women, all of whom are involved in cultivation of paddy and vegetables.Rina has applied for a loan of INR 7,50,000 from DCBS, one of Milaap's field partners. Rina and her partners intend to buy seeds, fertilizers, and other raw materials needed for the cultivation of paddy and vegetables. They have been involved in this work for a long time, but they have fallen on hard times and need to re-start their farming business. As farming is the only source of income for most of these women, they need to restart their business in order to be self-sufficient and financially stable once again. Financial independence is important for them as most of them have school-going children.","02 Aug 2022","12","02 Aug 2022","13.47"),
     new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1658859899/production/images/loan/a020o00000wMc1hAAC-Rakkaiyammansakthi_1658859897.jpg","Vasuki And Group","18988.00","101012.00","Nannilam, Tamil Nadu","to purchase more cows to expand dairy business","Vasuki is a 43-year-old married woman residing in the Thiruvarur district of Tamil Nadu. She has a family of 5 members and three school-going children. She wants to be a dairy farmer. She has a monthly family income roughly around INR 28,500 per month. She has formed and is leading a group of 4 members who, just like Vasuki, work hard to support their families and save for their secured futures.She realizes that an increase in her and her friend's monthly family incomes and their ability to save from it will ensure greater levels of economic independence. It will give them an alternate means of generating wealth and becoming financially stable in society. This will generate benefits not only for her, as an individual woman, but also her family and community as a whole through collective action for development. However, with the rising cost of living, she and the other women in the group are unable to save anything from their present income. Since she and the other women in the group run the household, a higher standard of living will ensure better governance along with a healthier and more prosperous future for the families and children. She has applied for a loan of INR 1,20,000 from Velicham Finance Private Limited, one of Milaap's field partners, for the purchase of cows, so that she and the others can start rearing them and selling their milk, butter, cheese, paneer and so on for a financially stable future.Vasuki and the other women are thankful to the lenders for all their support.","26 Aug 2022","24"," Oct 2022 to Oct 2024","14.65"),
     new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660292014/production/images/loan/a020o0000182Ln2AAE-SAT2B01_1660292012.jpg","Ranita And Group","124725.50","115274.50","Sega Road Branch, Manipur","To pay the school fees, private tuition fee, exam fee and buy study materials for their children","Ranita resides in residing in the Imphal-West district of Manipur. She has a family of 4 members. She has her own business and manages to accumulate an amount of Rs 22,000 per month. She runs a group of 4 members who work hard and wish to continue their children's education. Education is a very vital tool that is used in the contemporary world to succeed. It is important because it is used to mitigate most of the challenges faced in life. The knowledge that is attained through education helps open doors to a lot of opportunities for better prospects in career growth. She realises this significance and wants her child to continue with the education to improve the standard of living of the family and secure the future. She knows that her child will be able to sustain the entire family in the near future and not be dependent on attaining the resources for survival. This would ensure a better life for the entire family and also the community. However, with the growing cost of education, it is very difficult for her to manage the household expenses and continue with the education of her child. All the members of the group face this trouble.She applied for a loan amount of Rs. 2,40,000 from Chanura, one of Milaap's Field Partners. The loan will assist in paying the school fees, private tuition fees, and exam fees of the children of the members as well as purchasing the study materials that are needed every now and then henceforth continuing with their education. She and her friends will be very thankful for your help and support","12 Sep 2022","24","Oct 2022 to Oct 2024","14.35",),
     new Milaap("https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1658778211/production/images/loan/a020o00000wMGc9AAG-Tamilselvisakthi.jpegintrumangalam_1658778210.jpg","Tamilselvi And Group","20930.00","139070.00","Kulithalai, Tamil Nadu","to buy a cow and sell and milk products","Tamilselvi is a 21-year-old married woman residing in Karur district of Tamil Nadu. She has a family of 2 members. She is a working woman and manages to accumulate a household income of an amount of INR.15,000 per month. She leads a group of 8 women who are driven to establish their own lives.She realises that an increase in her income levels and control over income will ensure greater levels of economic independence. It will give her an independent means of generating wealth and becoming self-reliant in a society. This will generate benefits not only for her, as an individual woman but also her family and community as a whole through collective action for development. However, she is unable to meet her desire of expanding a dairy business due to financial constraints. Like her, the other members of her group also wish to expand their respective businesses. Since she runs the household, a higher standard of living will ensure better governance and a healthier and more prosperous future for her family and children. She has applied for a loan of INR. 1,20,000 fromVelicham Finance Private Limited, one of Milaap's Field Partners, for the purchase of cattle so that she can engage in the making and selling of milk, butter, cheese and so on. She and her friends will be thankful for your help and support.","25 Aug 2022","18"," Oct 2022 to Apr 2024","14.55",),
@@ -47,15 +49,24 @@ function Milaap(i,t,f1,f2,a,p,s,l,rt,rp, r){
  ] 
  console.log("y:",myMilaap)
 
- let count = 0 
- let totalOfLoan = "230"
+ 
 
- displayData(myMilaap)
+
+ 
+//  Display Data
+ 
+displayData(myMilaap)
 
 function displayData(myMilaap){
-
+  container.innerHTML = ""
 
     myMilaap.forEach(el => {
+
+      let count = 0 || JSON.parse(localStorage.getItem("count"))
+      
+      let totalOfLoan = "" || JSON.parse(localStorage.getItem("money"))
+       
+     
 
        let loanCard = document.createElement("div")
        loanCard.setAttribute("class","loanCard")
@@ -71,6 +82,7 @@ function displayData(myMilaap){
       
        let Funded = Number(el.funded)
        let reqFund = Number (el.reqFund)
+       
        let total =  Funded + reqFund
        let percent = Funded/total*100
        percent = percent.toFixed(2)
@@ -111,7 +123,7 @@ function displayData(myMilaap){
        title.setAttribute("id","title")
 
        let add = document.createElement("p")
-       add.innerText =  el.address
+       add.innerText = "" + el.address
        //'\p{&#xf3c5}
 
        let purpose = document.createElement("p")
@@ -125,6 +137,13 @@ function displayData(myMilaap){
        story_div.append(story)
 
        let link = document.createElement("a")
+       link.addEventListener("click",function(){
+
+         let InfoArr =[]
+         InfoArr.push(el)
+         console.log(el)
+         localStorage.setItem("info",JSON.stringify(InfoArr))
+       })
        link.href = "./loan.html"
        link.innerText = "...Read More"
        link.style.marginTop ="1%"
@@ -160,8 +179,61 @@ function displayData(myMilaap){
        container.append(loanCard)
 
      
-
        
+       function completeLoan(){
+        
+
+        let moneyArr = "" || JSON.parse(localStorage.getItem("money"))
+         moneyArr += Number(reqFund)
+         totalOfLoan += Number(reqFund)
+         count++
+         
+        localStorage.setItem("count",JSON.stringify(count))
+        localStorage.setItem("money" ,JSON.stringify(moneyArr))
+        console.log(reqFund)
+        count++
+
+        comp.style.display = "none"
+
+        let added = document.createElement("button")
+        added.innerText = "Added To Basket"
+        added.style.width = "50%"
+        added.setAttribute("class", "lendBtn")
+        lendMoney.innerHTML = null
+        lendMoney.append(added)
+  
+        let popUpDiv = document.createElement("div")
+  
+        let line = document.createElement("p")
+        line.innerText = `${count} loans added to your Basket` +"\n" + `Total: ₹ ${totalOfLoan}`
+    
+        let basket = document.createElement("button")
+        basket.innerText = "View Basket"
+        basket.setAttribute("class" ,"basket")
+    
+        let payBtn = document.createElement("button")
+        payBtn.innerText = "Pay Now"
+        payBtn.setAttribute("class", "payBtn")
+    
+        let cross = document.createElement("p")
+        cross.innerText = "X"
+        cross.style.position = "absolute"
+        cross.style.left = "220px"
+        cross.style.top = "2px"
+        cross.style.cursor = "pointer"
+        cross.addEventListener("click", closePopUp)
+        
+        popUpDiv.append(line,basket,payBtn,cross)
+        popUpDiv.setAttribute("id","popUpDiv")
+        document.getElementById("v-main").append(popUpDiv)
+        
+        let  x = document.getElementById("popUpDiv");
+          if (x.style.display === "none") {
+              x.style.display = "block";
+             } else {
+            x.style.display = "block";
+            }
+      }
    
    
        
@@ -182,49 +254,14 @@ function displayData(myMilaap){
         } 
       });
     }
+ 
+ // Pop Up for View Total
 
-
-    let popUpDiv = document.createElement("div")
-
-    let line = document.createElement("p")
-    line.innerText = `${count} loans added to your Basket` 
-
-    let basket = document.createElement("button")
-    basket.innerText = "View Basket"
-    basket.setAttribute("class" ,"basket")
-
-    let payBtn = document.createElement("button")
-    payBtn.innerText = "Pay Now"
-    payBtn.setAttribute("class", "payBtn")
-
-    let cross = document.createElement("p")
-    cross.innerText = "X"
-    cross.style.position = "absolute"
-    cross.style.left = "220px"
-    cross.style.top = "2px"
-    cross.style.cursor = "pointer"
-    cross.addEventListener("click", closePopUp)
-
-
-    popUpDiv.append(line,basket,payBtn,cross)
-    popUpDiv.setAttribute("id","popUpDiv")
    
     
-     
-    document.getElementById("v-main").append(popUpDiv)
-    
    
-    function completeLoan(){
-      count++
-      
-      let  x = document.getElementById("popUpDiv");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-           } else {
-          x.style.display = "block";
-          }
-    }
-    console.log(count)
+
+  
   
     function closePopUp(){
       let  x = document.getElementById("popUpDiv");
@@ -235,15 +272,56 @@ function displayData(myMilaap){
           }
 
     }
+
+    // Fitering 
     
     let filter = document.getElementById("v-filterBox")
 
     filter.addEventListener("change",function(){
-     let content = document.getElementsByClassName("content")
-    let x =  content 
-    console.log(x)
+     let content = document.getElementById("Education")
+     if(content.value === "Eduction"){
+      return el.purpose === "to pay"
+     }
+     
+    
+    })
+
+    // Sorting 
+
+
+    let loanSort = document.getElementById("loan-sort")
+    loanSort.addEventListener("change" , function(){
+
+      let selected = loanSort.value
+      
+      if(selected === "Pending Amount"){
+        myMilaap.sort(function(a,b){
+          return a.reqFund - b.reqFund
+        })
+        displayData(myMilaap)
+        
+      }
+      if(selected === "Expiry"){
+        myMilaap.sort(function(a,b){
+          return new Date(a.lend) - new Date(b.lend);
+        })
+        displayData(myMilaap)
+        
+      }
+      if(selected === "Interest Rate"){
+        myMilaap.sort(function(a,b){
+          return a.rate - b.rate
+        })
+        displayData(myMilaap)
+       
+        
+      }
 
     })
 
+
+    
+
+   
  
  
