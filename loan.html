@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+    font-family: AvenirLTPro-Medium, Geneva,Tahoma, sans-serif;
+    font-style: "AvenirLTPro-Medium";
+    letter-spacing: .5px;
+   font-family:  Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+body{
+    width: 70%;
+    margin: auto;
+   
+}
+
+    .title{
+        line-height: 38px;
+        font-size: 30px;
+        color: #585858;
+        margin: auto;
+        font-weight: 300;
+        font-stretch: extra-expanded;
+        letter-spacing: 1.5px;
+        margin-bottom: 3%;
+    }
+
+    #v-main{
+        display: flex;
+        justify-content: space-between;
+    }
+    #v-left{
+        width: 65%;
+    }
+    #v-right{
+        width: 30%;
+    }
+    .v-story{
+        font-style:  "AvenirLTPro-Medium";
+    font-family: AvenirLTPro-Medium, Geneva,Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+    line-height: 24px;
+  
+    font-stretch: expanded;
+    
+    }
+    progress{
+    margin-top: 3%;
+   
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+  progress::-webkit-progress-value{
+    background-color:  #9c3353;
+    border-radius: 10px;
+  }
+
+  .lendBtn {
+   
+   padding: 5px 0px;
+   padding-top: 5px;
+    bottom: -2px;
+    background-color: #9c3353;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+}
+
+   </style>
+</head>
+<body>
+    <div id="container"></div>
+</body>
+</html>
+<script >
+    let info = JSON.parse(localStorage.getItem("info"))
+    
+    
+    let container = document.getElementById("container")
+    container.setAttribute("class","contain")
+    info.forEach(element => {
+       
+    let title = document.createElement("p")
+       title.innerText = element.title + " " +"is Crowdfunding" +" "+element.purpose
+       title.setAttribute("class","title")
+
+       let main = document.createElement("div")
+       main.setAttribute("id","v-main")
+
+       let left = document.createElement("div")
+       left.setAttribute("id","v-left")
+       
+       let right = document.createElement("div")
+       right.setAttribute("id","v-right")
+
+       let img = document.createElement("img")
+       img.src = element.image
+       img.style.width ="100%"
+
+       let storyTitle = document.createElement("p")
+       storyTitle.innerText = "Our Story"
+       storyTitle.setAttribute("class","title")
+       storyTitle.style.fontSize ="25px"
+       storyTitle.style.borderBottom = "1px solid grey"
+       storyTitle.style.marginTop ="5%"
+       storyTitle.style.marginBottom ="3%"
+
+       let story = document.createElement("p")
+       story.innerText = element.story
+       story.setAttribute("class","v-story")
+       
+
+       left.append(img,storyTitle,story)
+
+
+       let lendBox = document.createElement("div")
+
+       let p = document.createElement("p")
+       p.innerText = "Lend a little. Change a lot."
+       p.style.fontSize= "20px"
+       
+
+       let Funded = Number(element.funded)
+       let reqFund = Number (element.reqFund)
+       
+       let total =  Funded + reqFund
+       let percent = Funded/total*100
+       percent = percent.toFixed(2)
+       let fund = document.createElement("progress")
+       fund.setAttribute("id","fund")
+       fund.max = 100
+       fund.value = percent
+       
+       console.log(percent)
+       
+
+       let pBar = document.createElement("label")
+       pBar.for = "fund"
+       
+       pBar.innerText = "Funded"+"\n"+ element.funded
+       pBar.style.textAlign = "left"
+       let pBar2 = document.createElement("label")
+       pBar2.for = "fund"
+       pBar2.innerText = "Still Required"+"\n"+ element.reqFund
+       pBar2.style.position ="relative"
+       pBar2.style.marginTop="-1%"
+       pBar2.style.left = "100px"
+
+       let lendBtn = document.createElement("button")
+       lendBtn.setAttribute("class", "lendBtn")
+       lendBtn.innerText = "Lend"
+
+      
+      
+    lendBox.append(p,fund,pBar,pBar2,lendBtn)
+       right.append(lendBox)
+       main.append(left,right)
+        container.append(title,main,)
+    });
+</script>
