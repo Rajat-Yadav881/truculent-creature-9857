@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+                                <defs>
+                                  <clipPath id="twitter_clip-path">
+                                    <rect id="Rectangle_2286" data-name="Rectangle 2286" width="12" height="12" transform="translate(941 2657)" fill="#9c3353" stroke="#707070" stroke-width="1"></rect>
+                                  </clipPath>
+                                </defs>
+                                <g id="Group_3840" data-name="Group 3840" transform="translate(-936 -2652)">
+                                  <g id="Rectangle_2283" data-name="Rectangle 2283" transform="translate(936 2652)" fill="none" stroke="#9c3353" stroke-width="1">
+                                    <rect width="25" height="25" rx="12.5" stroke="none"></rect>
+                                    <rect x="0.5" y="0.5" width="24" height="24" rx="12" fill="none"></rect>
+                                  </g>
+                                  <g id="Mask_Group_222" data-name="Mask Group 222" transform="translate(2 2)" clip-path="url(#twitter_clip-path)">
+                                    <path id="twitter_5_" data-name="twitter (5)" d="M12,2.654a5.129,5.129,0,0,1-1.418.389,2.446,2.446,0,0,0,1.082-1.36,4.916,4.916,0,0,1-1.56.6A2.46,2.46,0,0,0,5.849,3.961a2.533,2.533,0,0,0,.057.561A6.963,6.963,0,0,1,.835,1.949a2.461,2.461,0,0,0,.756,3.288,2.43,2.43,0,0,1-1.112-.3v.027A2.471,2.471,0,0,0,2.451,7.378a2.455,2.455,0,0,1-.645.081,2.175,2.175,0,0,1-.466-.042,2.484,2.484,0,0,0,2.3,1.714A4.943,4.943,0,0,1,.589,10.18,4.608,4.608,0,0,1,0,10.146a6.926,6.926,0,0,0,3.774,1.1,6.954,6.954,0,0,0,7-7c0-.109,0-.214-.009-.318A4.908,4.908,0,0,0,12,2.654Z" transform="translate(941 2656.625)" fill="#9c3353"></path>
+                                  </g>
+                                </g>
+                              </svg>
