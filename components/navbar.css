@@ -6,6 +6,7 @@
     font-family: AvenirLTPro-Medium, Geneva,Tahoma, sans-serif;
     
 }
+
 /* #mil_class_set{
   
 } */
@@ -183,7 +184,7 @@
   }
   
   a:visited {
-    color: pink;
+    color: #212121;
     
     text-decoration: none;
   }

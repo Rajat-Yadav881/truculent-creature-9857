@@ -55,6 +55,11 @@ document.getElementById("footer").innerHTML = Footer()
       }
     }
   }
+
+  function profileSet(){
+    let ww = document.getElementById("name_of_profile")
+    
+  }
 let sold = [
   {
     name:"Feeding Mumbai",
