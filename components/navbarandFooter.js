@@ -161,7 +161,7 @@ function Footer(){
     </div>
     <div class="kwk">      
         <div class="kwk2">
-            <button href="#">Start a fundraiser</button>
+            <button  id="leapsection_btn" href="#">Start a fundraiser</button>
             <div>
                 <a href="#"><p>Pricing</p></a>
                 <a href="#"><p>Reviews</p></a>
