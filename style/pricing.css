@@ -1,0 +1,222 @@
+
+
+*{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Prompt', sans-serif;
+text-decoration: none;
+    padding: 0px;
+    margin: auto;
+    box-sizing: border-box;
+}
+#header{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #9C3353;
+    /* padding: 20px; */
+    color: azure;
+    margin: auto;
+    
+}
+#header_left{
+    width: 50%;
+    margin-left: -20px;
+
+}
+#header_right_main{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:flex-start;
+    gap:20px;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    font-weight: 100;
+    padding: 10px;
+
+}
+#header_right_main>a{
+    background-color: aliceblue;
+    border-radius: 30px;
+    color: #9C3353;
+    font-weight:200;
+    padding: 5px 10px;
+    margin:auto;
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px ;
+    /* margin: 10px; */
+}
+.description{
+    margin: auto;
+    text-align: center;
+    color: #676262;
+}
+.calculator-component{
+    width: 45%;
+    display: flex;
+    padding: 20px;
+    margin: 35px auto;
+    /* border: 1px solid red; */
+    padding: 20px;
+    background-color: #FFFF;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+body{
+    background-color: #F7F7F7;
+}
+#row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    color: #676262;
+    background-color: #F7F7F7;
+}
+
+#calculator_sub{
+    width: 45%;
+    background-color: #9C3353;
+    padding:40px 25px;
+
+    margin: 30px auto;
+    border-radius: 10px;
+}
+#calculator_sub>div>button{
+    color:aliceblue;
+    border-radius: 30px;
+    color: #9C3353;
+    padding: 10px;
+    border: none;
+    text-align: center;
+
+}
+.calc{
+    margin: auto;
+    /* border: 1px solid springgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body_part{
+    background-color: #B5DCD7;
+}
+
+
+
+.col_friest{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+   /* margin-top: 20px; */
+   
+}
+.why-choose-milaap{
+    background-color: #B5DCD7;
+   
+}
+.heading{
+    margin: 4px;
+}
+.col_friest>div{
+    width: 80%;
+    height: 70%;
+    background-color: #F7F7F7;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin:30px auto;
+    /* padding: 10px; */
+    display:flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px
+}
+.col>.card-items{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#next{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    background-image: url(/packs/_/assets/images/pricing/green-bg-a83bd38….png);
+    align-items: center;
+    margin: auto;
+    gap:10px;
+}
+#next>div{
+    width: 80%;
+    height: 70%;
+    background-color: #F7F7F7;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin:30px auto;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+}
+
+#next>.center-align{
+    background-color: #9C3353;
+    border-radius:30px;
+    padding: 0px 20px;
+    border: none;
+}
+#next>.center-align>a{
+    font-weight: 200;
+    color: white;
+}
+
+
+.main{ 
+    width: 100%;
+    display:flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #B5DCD7;
+    margin-top: 20px;
+}
+#card{
+    
+    display:flex;
+    flex-direction:row;
+     justify-content: center;
+     align-items: center;
+    
+}
+.testimonial-label{
+    width: 100%;
+    background-color: #9C3353;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+.testimonial-label>a{
+    color: aliceblue;
+    font-weight: 400;
+}
+#list_main>div{
+    display: block;
+    margin:30px 0px 20px 100px;
+    color: #676262;
+}
+#list_main>h3{
+    display: block;
+    margin:30px 0px 20px 100px;
+    font-weight: 100;
+    font-size: 25px;
+}
