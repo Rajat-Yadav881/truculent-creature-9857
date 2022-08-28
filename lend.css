@@ -200,8 +200,9 @@ progress::-webkit-progress-value {
     font-size: 24px;
     font-weight: 520;
     color:  #9c3353;
-    line-height: 32px;
+    line-height: 40px;
     margin-top: -1%;
+    margin-bottom: 2px;
     font-stretch: expanded;
 }
 #title:hover{
@@ -215,6 +216,7 @@ progress::-webkit-progress-value {
     line-height: 16px;
     margin-top: -1%;
     font-stretch: expanded;
+    margin-bottom: 2px;
 }
 
 
@@ -224,9 +226,10 @@ progress::-webkit-progress-value {
     font-size: 14px;
     font-weight: 500;
     color: #636363;
-    line-height: 24px;
+    line-height: 40px;
     margin-top: -1%;
     font-stretch: expanded;
+    margin-bottom: 2px;
 }
 #story_div{
     font-style:  "AvenirLTPro-Medium";
@@ -291,7 +294,7 @@ progress::-webkit-progress-value {
 }
 
 .v-purposeBox{
-    height: 80%;
+    height: 70%;
     overflow:hidden;
     overflow-wrap: initial;
     overflow-x: hidden;
@@ -352,7 +355,7 @@ progress::-webkit-progress-value {
   }
   
   .content {
-    padding: 3px 18px;
+    padding: 1px 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
