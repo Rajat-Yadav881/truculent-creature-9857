@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milaap</title>
     <link rel="stylesheet" href="./lend.css">
-    <link rel="stylesheet" href="./components/navbar.css">
+ 
     
     
 </head>
@@ -34,7 +34,7 @@
                 <label for="Education"> Education </label><br>
               
             </div>
-            <button class="collapsible">State</button>
+            <button class="collapsible">State<i class="arrow down"></i></button>
             <div class="content">
                 <input type="checkbox" id="tn" name="vehicle1" value="Bike">
                 <label for="vehicle1"> Tamil Nadu</label><br>
@@ -43,7 +43,7 @@
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
                 <label for="vehicle3"> Manipur</label><br><br>
             </div>
-            <button class="collapsible">Repayment</button>
+            <button class="collapsible">Repayment<i class="arrow down"></i></button>
             <div class="content">
               <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
               <label for="vehicle1">24 months</label><br>
@@ -53,7 +53,7 @@
               <label for="vehicle3"> less than 12 months</label><br><br>
             
             </div>
-            <button class="collapsible">Gender</button>
+            <button class="collapsible">Gender<i class="arrow down"></i></button>
             <div class="content">
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1"> Male</label><br>
@@ -69,6 +69,12 @@
             <div id="v-upper">
                 <div id="v-pagination">
                     <!-- Page Numbers -->
+                    <div id="buttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>Next</button>
+                    </div>
+                    
                 </div>
 
                 <div id="v-sorting">
@@ -88,6 +94,11 @@
             <div id="v-content">
                <!-- Loans -->
             </div>
+            <div id="buttons">
+                <button>1</button>
+                <button>2</button>
+                <button>Next</button>
+                </div>
 
         </div>
         

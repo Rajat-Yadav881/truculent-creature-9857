@@ -176,14 +176,23 @@ progress::-webkit-progress-value {
 
 
 
-#v-pagination{
-    border: 1px solid ;
-    height: 30px;
-    width: 20%;
+
+#buttons button{
+    padding: 7px 10px;
+    margin: 0px -3px 0px -2px;
+    color: #9c3353;
+    background-color: white;
+    border: 0.5px solid rgb(230, 230, 230);
+    font-size: 16px;
 }
-/* #v-content{
-   /* margin-top: 5%; */
-*
+
+#buttons button:nth-child(1){
+    padding: 7px 10px;
+    color: white;
+    background-color:#9c3353;
+    border: 0.5px solid rgb(230, 230, 230);
+    font-size: 16px;
+}
 
  #title{
     font-style:  "AvenirLTPro-Medium";
@@ -194,6 +203,9 @@ progress::-webkit-progress-value {
     line-height: 32px;
     margin-top: -1%;
     font-stretch: expanded;
+}
+#title:hover{
+    text-decoration: underline;
 }
 
 .v-purposeBox p:nth-child(2){
@@ -246,7 +258,7 @@ progress::-webkit-progress-value {
     
 
 }
-.comp:hover{
+#comp:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -315,6 +327,11 @@ progress::-webkit-progress-value {
     font-size: 16px;
 }
 
+.lendBtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
 .collapsible {
     background-color: rgb(249, 249, 249);
     color: rgb(90, 90, 90);
@@ -346,7 +363,10 @@ progress::-webkit-progress-value {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    margin-left: 150px;
+    position: absolute;
+    left:25%;
+   
+    
   }
   
   .down {

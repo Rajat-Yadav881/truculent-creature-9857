@@ -14,11 +14,8 @@
 
 
 
-import {navbar} from "./components/navbarandFooter.js "
 
-let navbar_div = document.getElementById("navbar")
 
-navbar_div.innerHTML = navbar()
 
 
 
@@ -90,6 +87,7 @@ function displayData(myMilaap){
        img.src = el.image;
        img.style.display= "block"
        img.style.width ="100%"
+       img.addEventListener("click",loanPage)
 
       
        let Funded = Number(el.funded)
@@ -109,13 +107,23 @@ function displayData(myMilaap){
        let pBar = document.createElement("label")
        pBar.for = "fund"
        
-       pBar.innerText = "Funded"+"\n"+ el.funded
+       pBar.innerText = "Funded"+ "\n"+ el.funded
+      
        pBar.style.textAlign = "left"
+       pBar.style.marginLeft = '-10%'
+       pBar.style.fontSize = "14px"
+       pBar.style.color = "#9c3353"
+
+
        let pBar2 = document.createElement("label")
        pBar2.for = "fund"
+
        pBar2.innerText = "Still Required"+"\n"+ el.reqFund
        pBar2.style.position ="absolute"
-       pBar2.style.marginTop="-3%"
+       pBar2.style.marginTop="-3.20%"
+       pBar2.style.textAlign = "right"
+       pBar2.style.marginLeft = "6%"
+       pBar2.style.fontSize = "14px"
 
        let comp = document.createElement("button")
        comp.setAttribute("id", "comp")
@@ -133,6 +141,7 @@ function displayData(myMilaap){
        let title = document.createElement("p")
        title.innerText = el.title 
        title.setAttribute("id","title")
+       title.addEventListener("click",loanPage)
 
        let add = document.createElement("p")
       //  let i = document.createElement("i")
@@ -152,18 +161,20 @@ function displayData(myMilaap){
        story_div.append(story)
 
        let link = document.createElement("a")
-       link.addEventListener("click",function(){
-
+       link.addEventListener("click",loanPage)
+       function loanPage(){
+        location.href =  "./loan.html"
          let InfoArr =[]
          InfoArr.push(el)
-         console.log(el)
+         
          localStorage.setItem("info",JSON.stringify(InfoArr))
-       })
-       link.href = "./loan.html"
+       }
+      
        link.innerText = "...Read More"
        link.style.marginTop ="1%"
        link.style.color ="#9c3353"
        link.style.fontSize = "14px"
+       link.style.cursor = "pointer"
       
        
       
@@ -172,7 +183,7 @@ function displayData(myMilaap){
        lendMoney.setAttribute("id","lendMoney")
        let div = document.createElement("span")
        div.setAttribute("id","rs")
-       div.innerText = "$"
+       div.innerText = "₹"
       
 
        let moneyInput = document.createElement("input")
@@ -355,9 +366,11 @@ function displayData(myMilaap){
 
     })
 
+    // Pagination
 
     
 
+   
    
  
  
