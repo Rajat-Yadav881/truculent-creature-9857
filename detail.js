@@ -139,3 +139,5 @@ function pay(event){
     },3200)
 }
 }
+
+document.getElementById("su-pay").addEventListener("click",pay)
