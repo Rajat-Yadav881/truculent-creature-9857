@@ -60,6 +60,7 @@ function Milaap(i,t,f1,f2,a,p,s,l,rt,rp, r){
  
 displayData(myMilaap)
 
+
 function displayData(myMilaap){
   container.innerHTML = ""
 
@@ -109,7 +110,7 @@ function displayData(myMilaap){
        pBar2.style.marginTop="-3%"
 
        let comp = document.createElement("button")
-       comp.setAttribute("class", "comp")
+       comp.setAttribute("id", "comp")
        comp.innerText = 'Complete The Loan'
        comp.addEventListener("click", completeLoan)       
    
@@ -126,7 +127,10 @@ function displayData(myMilaap){
        title.setAttribute("id","title")
 
        let add = document.createElement("p")
-       add.innerText = "" + el.address
+      //  let i = document.createElement("i")
+      //  i.innerText = "&#xf3c5"
+       
+       add.innerText =  el.address
        //'\p{&#xf3c5}
 
        let purpose = document.createElement("p")
@@ -170,6 +174,7 @@ function displayData(myMilaap){
        let lendBtn = document.createElement("button")
        lendBtn.setAttribute("class", "lendBtn")
        lendBtn.innerText = "Lend"
+       lendBtn.addEventListener("click",completeLoan)
 
        lendMoney.append(div,moneyInput,lendBtn)
 
@@ -182,19 +187,30 @@ function displayData(myMilaap){
        container.append(loanCard)
 
      
-       
-       function completeLoan(){
-        
+       let ir = JSON.parse(localStorage.getItem("money"))
+       function completeLoan(e){
+      
+      let  moneyArr = "" || JSON.parse(localStorage.getItem("money"))
 
-        let moneyArr = "" || JSON.parse(localStorage.getItem("money"))
-         moneyArr += Number(reqFund)
-         totalOfLoan += Number(reqFund)
+      if(e.target && e.target.id == 'comp'){
+        moneyArr += Number(reqFund)
+        console.log("yes")
+      }else{
+        moneyArr += Number(moneyInput.value)
+      }
+      console.log(e.target.id)
+
+      // if(e.target.id == "Complete the Loan"){
+      //   moneyArr += Number(reqFund)
+      // }else {
+      //   
+      // }
+        
+        //  totalOfLoan += Number(reqFund)
          count++
          
-        localStorage.setItem("count",JSON.stringify(count))
-        localStorage.setItem("money" ,JSON.stringify(moneyArr))
-        console.log(reqFund)
-        count++
+       
+     
 
         comp.style.display = "none"
 
@@ -208,7 +224,7 @@ function displayData(myMilaap){
         let popUpDiv = document.createElement("div")
   
         let line = document.createElement("p")
-        line.innerText = `${count} loans added to your Basket` +"\n" + `Total: ₹ ${totalOfLoan}`
+        line.innerText = `${count} loans added to your Basket` +"\n" + `Total: ₹ ${ir}`
     
         let basket = document.createElement("button")
         basket.innerText = "View Basket"
@@ -225,6 +241,8 @@ function displayData(myMilaap){
         cross.style.top = "2px"
         cross.style.cursor = "pointer"
         cross.addEventListener("click", closePopUp)
+        localStorage.setItem("count",JSON.stringify(count))
+        localStorage.setItem("money" ,JSON.stringify(moneyArr))
         
         popUpDiv.append(line,basket,payBtn,cross)
         popUpDiv.setAttribute("id","popUpDiv")
@@ -282,16 +300,19 @@ function displayData(myMilaap){
 
     filter.addEventListener("change",function(){
      let content = document.getElementById("Education")
-     if(content.value === "Eduction"){
-      return el.purpose === "to pay"
-     }
+    //  if(content.value === "Education"){
+    //   // return el.purpose === "to pay"
+    //   console.log(content.value)
+    //  }
+    console.log(content.value)
+   
      
     
     })
 
     // Sorting 
 
-
+    
     let loanSort = document.getElementById("loan-sort")
     loanSort.addEventListener("change" , function(){
 
@@ -318,6 +339,10 @@ function displayData(myMilaap){
         displayData(myMilaap)
        
         
+      }
+      if(selected === "Popularity"){
+        
+        displayData(myMilaap)
       }
 
     })
