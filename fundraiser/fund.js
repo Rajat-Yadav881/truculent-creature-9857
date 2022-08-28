@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> e42fa3a9fd76472aa1f67e73433bda9104e3eaa5
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0]
 function Close()

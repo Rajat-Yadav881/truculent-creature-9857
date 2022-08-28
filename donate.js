@@ -226,7 +226,11 @@ function openModal() {
 function closeModal() {
     modalWrapper.classList.remove('active');
 }
-
+function changer(){
+    let change = document.querySelector(".sudhirChange")
+    change.innerHTML = null
+}
+changer()
 document.getElementById("high_cp1").addEventListener("click",low)
 document.getElementById("high_cp2").addEventListener("click",high)
 document.getElementById("cp1_su").addEventListener("click",taxbenifit)

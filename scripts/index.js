@@ -232,7 +232,8 @@ let volt = [
       },
       
 ]
-let deepDown;
+let array=[0,1,2,3,4,5,6,7,8]
+let deepDown="₹";
 // let sol = [...sold]
 
 let append = (volt)=>{
@@ -314,12 +315,19 @@ function debounce(setGlimped,delay){
 }
 document.getElementById("temp").addEventListener("click",()=>{
   let glove = document.getElementById("temp")
-  if(glove.checked){
-    let q="₹"
-    deepDown = q
-  }else{
-    let q="$"
-    deepDown = q
+  // if(glove.checked){
+  //   let q="$"
+  //   deepDown = q
+  // }
+  for(let i=0;i<array.length;i++)
+  {
+    if(i%2===0){
+      // deepDown = "₹"
+      console.log("YES")
+    }else{
+      // deepDown = "$"
+      console.log("NO")
+    }
   }
 })
 document.getElementById("setterMedical").addEventListener("click",Medical)

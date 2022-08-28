@@ -22,11 +22,7 @@ let LoginArr=JSON.parse(localStorage.getItem('Data'))||[]
         flag=true
         localStorage.setItem('Login',JSON.stringify(Loginobj))
         alert('Login success')
-<<<<<<< HEAD
         window.location.href='../index.html'
-=======
-        window.location.href='index.html'
->>>>>>> e42fa3a9fd76472aa1f67e73433bda9104e3eaa5
       }
       
       
