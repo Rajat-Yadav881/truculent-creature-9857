@@ -356,8 +356,8 @@ progress::-webkit-progress-value {
 
   #popUpDiv{
     position: fixed;
-    left: 1200px;
-    top: 50px;
+    left: 1050px;
+    top: 100px;
     display: none;
     background-color: #f6f6f6;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

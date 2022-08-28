@@ -1,3 +1,6 @@
+import {navbar,Footer} from "./components/navbarandFooter.js"
+document.getElementById("kal_navbar").innerHTML = navbar()
+document.getElementById("footer").innerHTML = Footer()
 let  Array=[
     {
         img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_198,w_264/v1660649350/production/images/campaign/536469/FB_IMG_1658395994367_e2mnph_1660649355.jpg",
@@ -78,52 +81,52 @@ getdata(Array)
 
 function getdata(Array){
     Array.forEach((el)=>{
-        div=document.createElement("div")
+        let div=document.createElement("div")
         div.addEventListener("click",function(){
             send(el)
         })
 
-        img=document.createElement("img")
+        let img=document.createElement("img")
         img.src=el.img
-        div1=document.createElement("div")
+        let div1=document.createElement("div")
         div1.setAttribute("id","su-card1")
 
-        Name=document.createElement("p")
+        let Name=document.createElement("p")
         Name.innerText=el.Name
 
-        percentage=document.createElement("p")
+       let percentage=document.createElement("p")
         let x=((el.donated/el.total)*100).toFixed(2)
         percentage.innerText=`${x}%`
         percentage.setAttribute("id","round-bar")
 
-        div2=document.createElement("div")
+        let div2=document.createElement("div")
 
-        raised=document.createElement("p")
+       let raised=document.createElement("p")
         raised.innerText="Raised"
 
-        donated=document.createElement("p")
+       let donated=document.createElement("p")
         donated.innerText=el.donated
 
         div2.append(raised,donated)
 
-        div3=document.createElement("div")
+       let div3=document.createElement("div")
 
-        created=document.createElement("p")
+        let created=document.createElement("p")
         created.innerText="Created"
 
-        Name1=document.createElement("p")
+        let Name1=document.createElement("p")
         Name1.innerText="By Saiprasad"
 
         div3.append(created,Name1)
 
         div1.append(percentage,div2,div3)
-
+        let p=document.createElement("p")
         if(el.tax==true){
-            p=document.createElement("p")
+            
             p.setAttribute("class","su-tax")
             p.innerText="| Receive tax benefits by donating to this cause."
         }else{
-            p=document.createElement("p")
+            
             p.innerText=""
             
         }
@@ -132,8 +135,10 @@ function getdata(Array){
         document.getElementById("product").append(div)
     })
 }
+let copydata;
 function high(){
     document.getElementById("product").innerHTML=null
+    
     Array.sort(function(a,b){
         return b.donated-a.donated
     })
@@ -168,6 +173,7 @@ function Education(){
     getdata(copydata)
 }
 function Animal(){
+    console.log("kello")
     document.getElementById("product").innerHTML=null
    copydata= Array.filter(function(a){
         return a.type==="animals"
@@ -184,7 +190,7 @@ function Womens(){
 
 function send(el){
 
-    storage=[]
+    let storage=[]
     storage.push(el)
     console.log(storage)
     localStorage.setItem("storagedata",JSON.stringify(storage))
@@ -220,3 +226,11 @@ function openModal() {
 function closeModal() {
     modalWrapper.classList.remove('active');
 }
+
+document.getElementById("high_cp1").addEventListener("click",low)
+document.getElementById("high_cp2").addEventListener("click",high)
+document.getElementById("cp1_su").addEventListener("click",taxbenifit)
+document.getElementById("cp2_su").addEventListener("click",Medical)
+document.getElementById("cp3_su").addEventListener("click",Education)
+document.getElementById("cp4_su").addEventListener("click",Animal)
+document.getElementById("cp5_su").addEventListener("click",Womens)

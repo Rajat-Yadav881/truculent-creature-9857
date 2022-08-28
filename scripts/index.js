@@ -12,6 +12,7 @@ document.getElementById("footer").innerHTML = Footer()
 // }
 
 
+
 // let append = (objectS)=>{
 //     let cont = document.getElementById("rj_container")
 //     cont.innerHTML = null;
@@ -56,10 +57,7 @@ document.getElementById("footer").innerHTML = Footer()
     }
   }
 
-  function profileSet(){
-    let ww = document.getElementById("name_of_profile")
-    
-  }
+
 let sold = [
   {
     name:"Feeding Mumbai",
@@ -234,7 +232,9 @@ let volt = [
       },
       
 ]
-let sol = [...sold]
+let deepDown;
+// let sol = [...sold]
+
 let append = (volt)=>{
   let cont = document.getElementById("info_container");
   cont.innerHTML = null
@@ -247,7 +247,7 @@ let append = (volt)=>{
     let author = document.createElement("p")
     author.innerText  =el.creater;
     let fundRase = document.createElement("p")
-    fundRase.innerText = `$${el.raised}`
+    fundRase.innerText = `${deepDown}${el.raised}`
     fundRase.setAttribute("class","colorZ")
     let x=document.createElement("p")
     x.innerText = "Fund Raised"
@@ -261,6 +261,7 @@ let append = (volt)=>{
   })
 }
 append(sold)
+
 let setGlimped = ()=>{
   let query = document.getElementById("inp__search").value;
  
@@ -280,6 +281,28 @@ let Medical = ()=>{
   })
   append(cos)
 }
+function proFile(){
+  
+  let profile = document.getElementById("name_of_profile")
+
+    let {email} = JSON.parse(localStorage.getItem("Login"))
+    console.log(email)
+    let name = document.createElement("p")
+    let bag="";
+    for(let i=0;i<email.length;i++){
+      if(email[i]==="@"){
+        break
+      }
+      bag += email[i]
+    }
+    name.setAttribute("class","kop")
+    name.innerText = bag
+    name.style.color = "black"
+    let imgZ = document.createElement("img")
+    imgZ.src = "https://support.hubstaff.com/wp-content/uploads/2019/08/good-pic-300x286.png"
+    profile.append(name,imgZ)
+}
+proFile()
 let id;
 function debounce(setGlimped,delay){
     if(id){
@@ -289,6 +312,16 @@ function debounce(setGlimped,delay){
       setGlimped()
     },delay);
 }
+document.getElementById("temp").addEventListener("click",()=>{
+  let glove = document.getElementById("temp")
+  if(glove.checked){
+    let q="₹"
+    deepDown = q
+  }else{
+    let q="$"
+    deepDown = q
+  }
+})
 document.getElementById("setterMedical").addEventListener("click",Medical)
 document.getElementById("luisSense").addEventListener("click",keep_hustle)
 
