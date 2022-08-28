@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/footer.css">
     <title>Document</title>
     <style>
         *{
             font-family: AvenirLTPro-Medium, Geneva,Tahoma, sans-serif;
         }
+        .dropbtn{
+            border: 2px solid red;
+            width: 80px;
+            height: 80px;
+        }
+        /* .dropbtn {
+    background-color: #fff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:#9c3353;
+  }
+  
+  #profileSet {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #profileSet a:hover {background-color: #ddd;}
+  
+  .show {display: block;} */
 #product{
             display: grid;
             grid-template-columns: repeat(3,1fr);
@@ -168,6 +213,7 @@ p {
     </style>
 </head>
 <body>
+    <div id="kal_navbar"></div>
     <div id="top">
         <p>Thousands are crowdfunding for various causes. Support a fundraiser today.</p><img src="https://assets.milaap.org/assets/campaign_list/hand-icon-a6aa7d32e8617b3f8a0f20c2f19d009af223df706aa7e31464e72c382afdceb0.svg" alt="">
     </div>
@@ -179,19 +225,21 @@ p {
             <button class="close">&times;</button>
             <h2>Sort</h2>
             <p>Order in which the causes are displayed to you</p>
-            <button class="su-sort" onclick="high()">Highest Raised</button>
-            <button class="su-sort" onclick="low()">Lowest Raised</button>
+            <button class="su-sort" id="high_cp1" >Highest Raised</button>
+            <button class="su-sort" id="high_cp2" >Lowest Raised</button>
             <h2>Filter</h2>
             <p>See only specific type of causes</p>
-            <button class="su-filter" onclick="taxbenifit()">Provide Tax Benifits</button>
-            <button class="su-filter" onclick="Medical()">Medical</button>
-            <button class="su-filter" onclick="Education()">Education</button>
-            <button class="su-filter" onclick="Animal()">Animal</button>
-            <button class="su-filter" onclick="Womens()">Womens</button>    
+            <button class="su-filter" id="cp1_su" >Provide Tax Benifits</button>
+            <button class="su-filter" id="cp2_su" >Medical</button>
+            <button class="su-filter" id="cp3_su" >Education</button>
+            <button class="su-filter" id="cp4_su">Animal</button>
+            <button class="su-filter" id="cp5_su" >Womens</button>    
         </div>
     </div>
  
     <div id="product"></div> 
+    <div id="footer"></div>
 </body>
 </html>
-<script src="./donate.js"></script>
+<script src="./donate.js" type="module"></script>
+<script src="./components/set.js" type="module"></script>

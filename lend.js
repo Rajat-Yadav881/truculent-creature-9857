@@ -1,3 +1,6 @@
+import {navbar} from "./components/navbarandFooter.js"
+document.getElementById("kal_navbar").innerHTML = navbar()
+
 //Image
 //title
 //Funds
