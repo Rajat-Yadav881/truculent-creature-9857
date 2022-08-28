@@ -6,10 +6,10 @@ function navbar(){
     <div id="set_class_inner">
         <div id="navsection_class_set">
             <div id="navsection_class_set_feel_1" class="section_one"><a href="index.html">Home</a> </div>
-            <div id="navsection_class_set_feel_1"><a href="donate.html">Donate</a></div>
-            <div id="navsection_class_set_feel_1"><a href="lend.html">Lend</a></div>
-            <div id="navsection_class_set_feel_1"><a href="#">Pricing</a></div>
-            <div id="navsection_class_set_feel_1"><a href="#">Contact us</a></div>
+            <div id="navsection_class_set_feel_1"><a href="donate.html" style="color:#1b1b20">Donate</a></div>
+            <div id="navsection_class_set_feel_1"><a href="lend.html" style="color:#1b1b20">Lend</a></div>
+            <div id="navsection_class_set_feel_1"><a href="#" style="color:#1b1b20">Pricing</a></div>
+            <div id="navsection_class_set_feel_1"><a href="#" style="color:#1b1b20">Contact us</a></div>
             <div id="navsection_class_set_feel_1" class="op">
             <div class="toggle">
         <input type="checkbox" id="temp">
