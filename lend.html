@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/navbar.css">
+    <title>Milaap</title>
+    <link rel="stylesheet" href="./lend.css">
+ 
+    
+    
+</head>
+<body>
+    <div id="kal_navbar"></div>
+   
+    <div id="v-head">
+        <p >You can help a family fundraise for a better life. Make a loan.</p>
+        <p>Select a loan you feel the most for, based on the cause, geography or the fundraising need.</p>
+    </div>
+    <div id="v-main">
+        <div id="v-filter">
+            <!-- Filter div -->
+            
+            
+            <p id="v-filterBy">Filter By</p>
+            <div id="v-filterBox">
+
+           
+            <button class="collapsible">Cause<i class="arrow down"></i></button>
+            <div class="content">
+                <input type="checkbox" id="enterDev" name="enterDev" value="Enterprise Development">
+                <label for="enterDev"> Enterprise Development</label><br>
+                <input type="checkbox" id="Education" name="Education" value="Education">
+                <label for="Education"> Education </label><br>
+              
+            </div>
+            <button class="collapsible">State<i class="arrow down"></i></button>
+            <div class="content">
+                <input type="checkbox" id="tn" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Tamil Nadu</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> West Bengal</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Manipur</label><br><br>
+            </div>
+            <button class="collapsible">Repayment<i class="arrow down"></i></button>
+            <div class="content">
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1">24 months</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> 12 to 24 months</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> less than 12 months</label><br><br>
+            
+            </div>
+            <button class="collapsible">Gender<i class="arrow down"></i></button>
+            <div class="content">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Male</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Female</label><br>
+               
+            </div>
+            
+        </div>
+    </div>
+        <div id="v-right">
+            <!-- Whole right Side -->
+            <div id="v-upper">
+                <div id="v-pagination">
+                    <!-- Page Numbers -->
+                    <div id="buttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>Next</button>
+                    </div>
+                    
+                </div>
+
+                <div id="v-sorting">
+                    <!-- Sorting  -->
+                     <label for="loan-sort">Sort By</label>
+                     <select id="loan-sort">
+                        <option value="Popularity">Popularity</option>
+                        <option value="Expiry">Expiry</option>
+                        <option value="Pending Amount">Pending Amount</option>
+                        <option value="Recent">Recent</option>
+                        <option value="Interest Rate">Interest Rate</option>
+                        
+                    </select>
+                    
+                </div>
+            </div>
+            <div id="v-content">
+               <!-- Loans -->
+            </div>
+            <div id="buttons">
+                <button>1</button>
+                <button>2</button>
+                <button>Next</button>
+                </div>
+
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
+
+
+<script src="./lend.js" type="module"></script>
+<script src="./components/set.js" type="module"></script>
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundraise for a Cause with Milaap : the Best Crowdfunding Site | Milaap</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://assets.milaap.org/assets/new-favicon-2cdcc1a380f7ba45aceb8355bec47f49098b9aa600c24b5fbfe224e205ab34cc.ico" />
+  <link rel="stylesheet" href="./fundraiser/fund.css">
+</head>
+<body>
+  <div id="navbar">
+    <div class="step-name"><img src="https://assets.milaap.org/assets/milaap-logo-tiny-4d3dbc4e55c2aaec351f0f376329c624236c4d6266b910f472684e70603f600d.png" title="milaap" class="milaap-logo">
+      <span> Setup fundraiser</span>
+    </div>
+    <div class="step-status">
+      <label class="step-label">
+      <span class="current-step">Step 1</span>
+      <span> of 4</span>
+    </label></div>
+  </div>
+  <div class="step-title">Basic Details</div>
+  <div id="cause-selector">
+    <label for="cause-selector">I am raising funds for a/an </label>
+    <a class="cause-types" ><span class="arrow-dropdown"></span></a>
+    <label>cause</label>
+    <div id="buttons">
+      <button class="button"  id="btn1" onclick="btn1()">Medical</button>
+      <button class="button" onclick="btn2()">Education</button>
+      <button class="button" onclick="btn3()">Memorial</button>
+      <button class="button" onclick="btn4()">...Others</button>
+    </div>
+  </div>
+  <div>
+    <form action="">
+      <input type="name" class="input" placeholder="Name" id="email">
+    <input type="email" class="input" placeholder="Email ID" id="email">
+    <input type="number" class="input" placeholder="Enter Mobile Number" id="password">
+    </form>
+  </div>
+  <div>
+    <div class="step-actions-container"><div class="step-actions basic-details-action"><img src="https://assets.milaap.org/assets/campaign_setup/arrow-image-07b018cd8357baee553006dae28cd5e7a056ccc3f3d5580d6666d7654a07c2cc.png">
+      <button type="submit" class="btn btn-primary btn-block btn-submit" onclick="Close()" id="otpbutton">Continue</button>
+    </div>
+  </div>
+  </div>
+  <div>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="head">Enter OTP to verify your account</p>
+        <img src="https://static.thenounproject.com/png/1241744-200.png" alt="">
+        <p class="head1">We have sent OTP to your email</p>
+        <input type="name" class="otp" id="otp" placeholder="Enter OTP here" id="email">
+        <button id="btn" >Continue</button>
+        <p class="head1">Didn’t receive the OTP?</p>
+        <p class="head1">In case you do not receive the OTP on your email id, please check your spam/junk folders</p>
+        <a href="#"><p>Resend</p></a>
+      </div>
+    
+    </div>
+  </div>
+</body>
+</html>
+<script src="./fundraiser/fund.js"></script>
